@@ -1,1 +1,1 @@
-web: gunicorn run:kauppalista kauppalista:app
+web: gunicorn kauppalista:run kauppalista:app
